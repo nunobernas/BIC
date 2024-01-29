@@ -283,7 +283,7 @@ def create_jira_issue(issue_summary, issue_description, issueType, prio):
 
 def main():
     if len(sys.argv) < 3:
-        print("[SYSTEM]: Invalid Syntax!\n[SYSTEM]: Use - python tool.py "
+        print("[SYSTEM]: Invalid Syntax!\n[SYSTEM]: Use - python bic.py "
               "<excel_path> <project_name>")
         sys.exit(1)
 
